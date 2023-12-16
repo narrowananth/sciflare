@@ -1,0 +1,31 @@
+{
+	"name": "sciflare",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@faker-js/faker": "^8.3.1",
+		"@hapi/joi": "^17.1.1",
+		"axios": "^1.6.2",
+		"bcrypt": "^5.1.1",
+		"body-parser": "^1.20.2",
+		"connect-flash": "^0.1.1",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"express-session": "^1.17.3",
+		"jsonwebtoken": "^9.0.2",
+		"memorystore": "^1.6.7",
+		"mongodb": "^6.3.0",
+		"mongoose": "^8.0.3",
+		"nodemon": "^3.0.2",
+		"passport": "^0.7.0",
+		"passport-local": "^1.0.0",
+		"prettier": "^3.1.1",
+		"speakeasy": "^2.0.0"
+	}
+}
